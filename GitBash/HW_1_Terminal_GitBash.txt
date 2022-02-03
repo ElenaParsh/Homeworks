@@ -13,7 +13,7 @@
 Вводим текст
 Here is 
 the first 
-Homework 
+Homework  
 on Terminal
 using
 Git Bash
