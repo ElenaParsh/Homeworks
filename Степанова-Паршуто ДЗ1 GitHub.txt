@@ -1,0 +1,208 @@
+﻿ДЗ 1 GitHub
+
+JSON   https://github.com/ElenaParsh/JSON.git
+
+4. Создать внешний репозиторий с названием JSON --- открыть https://github.com/ElenaParsh?tab=repositories. Нажать кнопку New. 
+                                                    В поле Repository name ввести JSON, выбрать Public и Add a README file. Нажать Create repository.  
+5. Клонировать внешний репозиторий TXT на локальный компьютер ----- git clone https://github.com/ElenaParsh/JSON.git
+6. Внутри локального TXT создать  файл "new.json" ----  touch new.json (предварительно необходимо войти в папку JSON командой cd JSON)
+7. Добавить файл под гит ----  git add new.json
+8. Закоммитить файл ---- git commit -m 'Add new.json file'
+9. Отправить файл на внешний GitHub репозиторий ---- git push
+10. Отредактировать содержание файла "new.json" - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). 
+Все в формате json ---- im new.json (для перехода в режим ввода нажать i. Ввести текст)
+   {"Name_Surname”: "Elena_Stepanova-Parshuto",
+	 "Age": 35,
+	 "Amount_of_pets": 1,
+	 "Expected_salary": 1000
+	}
+11. Отправить изменения на внешний репозиторий ---- Выполняем последоватвельно команды git add new.json  
+                                                                                       git commit -m 'Add new.json file' 
+										                                               git push
+12. Создать файл preferences.json ---- touch preferences.json
+13. В файл preferences.json добавить информацию о своих предпочтениях (любимый фильм, любимый сериал, любимая еда, любимое время года,
+страна, которую хотели бы посетить) в формате json ---- vim preferences.json (для перехода в режим ввода нажать i. Ввести текст)
+	{"Favorite_movie": "Iron_men",
+	 "Favorite_series": "The_big_bang_theory",
+	 "Favorite_meal": "Potato_cakes",
+	 "Favorite_season": "Summer",
+	 "Country_you_would_like_to_visit": "USA"
+	}
+14. Создать файл 'skills.json' добавить информацию о скиллах, которые будут получены на курсе ----  cat > skills.json далее ввести текст
+	{"Skill_1":"Terminal",
+	"Skill_2":"GitHub",
+	"Skill_3":"Postman",
+	"Skill_4":"Charles",
+	"Skill_5":"DevTools",
+	"Skill_6":"SQL"}
+15. Отправить сразу два файла на внешний репозиторий ---- Выполняем последоватвельно команды git add.
+                                                                                             git commit -m 'Add preferences.json and skills.json files'  
+								                                                             git push
+16. На веб интерфейсе создать файл bug_report.json ---- Войти в репозиторий JSON (https://github.com/ElenaParsh/JSON). Нажать кнопку Add file.
+                                                        Выбрать Create new file. В поле Name your file ввести bug_report.json. 
+                                                        Нажать кнопку Commit new file.
+17. Сделать  Commit changes на интерфейсе ---- Открыть файл bug_report.json выбрать редактировать. Нажать Commit changes.
+18. На веб интерфейсе модифицировать файл bug_report_json, добавить баг репорт в формате json ---- Открыть файл bug_report.json  Выбрать
+                                                                                    редактирование. Ввести текст
+	{"ID number": "BEL-1",
+	"Name": "Articles on start page are not aligned to column width",
+	"Reporter": "Elena Stepanova-Parshuto"     
+	"Submit Date": "25.05.2021",
+	"Summary": "Articles on start page are not aligned to column width"
+	"Environment": "OS - Windows 10 Pro x64bit, ver. 21H1, OS assembly 19043.906 Browser -Mozilla Firefox, ver. 88.0.1"
+	"Priority": "Low"
+	"Assigned to":"N/A"
+	"Severity": "Low"
+	"Description":"Articles on start page are not aligned to column width"
+  	"Steps to reproduce":
+	"1)Open link https://www.belta.by 2)  View the page"
+	"Expected result":"Articles are aligned to column width"
+	"Actual result":"Articles on start page are not aligned to column width" } 
+19. Сделать Commit changes на веб интерфейсе ---- нажать Commit Changes 
+20. Синхронизировать внешний и локальный репозиторий JSON --- git pull
+
+XML   https://github.com/ElenaParsh/XML.git
+
+21. Создать внешний репозиторий с названием XML --- открыть https://github.com/ElenaParsh?tab=repositories. Нажать кнопку New. 
+                                                    В поле Repository name ввести XML, выбрать Public и Add a README file. Нажать Create repository.
+22. Клонировать внешний репозиторий XML на локальный компьютер ----- git clone https://github.com/ElenaParsh/XML.git
+23. Внутри локального XML создать  файл "new.xml" ----  touch new.xml (предварительно необходимо войти в папку XML командой cd XML) 
+24. Добавить файл под гит ---- git add new.xml
+25. Закоммитить файл ---- git commit -m 'Add new.xml file'
+26. Отправить файл на внешний GitHub репозиторий ---- git push
+27. Отредоктировать содержание файла new.xml - внести информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата)----
+	vim new.xml (для перехода в режим ввода нажать i. Ввести текст)
+	<?xml version="1.0" encoding="UTF-8"?>
+	<aboutme>
+	<Name_Surname>Elena_Stepanova-Parshuto</Name_Surname>
+	<Age>35</Age>
+	<Amount_of_pets>1</Amount_of_pets>
+	<Expected_salary>1000</Expected_salary>
+	</aboutme>
+28. Отправить изменения на внешний репозитории ---- Выполняем последоватвельно команды git add new.xml  
+                                                                                       git commit -m 'Add new.xml file' 
+										                                               git push
+29. Создать файл preferences.xml ---- git touch preferences.xml
+30. В файл preferences.xml добавить информацию о своих предпочтениях (любимый фильм, любимый сериал, любимая еда, любимое время года,
+    страна, которую хотели бы посетить)  в формате xml ---- vim preferences.xml (для перехода в режим ввода нажать i. Ввести текст) 
+   <?xml version="1.0" encoding="UTF-8"?>
+	<preferences>
+    <Favorite_movie>Iron_men</Favorite_movie>
+	<Favorite_series>The_big_bang_theory</Favorite_series>
+	<Favorite_meal>Potato_cakes</Favorite_meal>
+	<Favorite_season>Summer</Favorite_season>
+	<Country_you_would_like_to_visit>USA</Country_you_would_lik_ to_visit>
+	</preferences>
+31. Создать файл skills.xml добавить информацию о скилах, которые будут получены на курсе --- cat > skills.xml Ввести текст
+	<?xml version="1.0" encoding="UTF-8"?>
+	<skills>
+	<Skill_1>Terminal</Skill_1>
+	<Skill_2>GitHub</Skill_2>
+	<Skill_3>Postman</Skill_3>
+	<Skill_4>Charles</Skill_4>
+	<Skill_5>DevTools</Skill_5>
+	<Skill_6>SQL</Skill_6>
+	</skills>
+
+ Для выхода нажать Ctrl+C
+32-33. Сделать коммит в одну строку --- Выполняем последоватвельно команды git add.
+                                                                           git commit -m 'Add preferences.xml skills.xml files'
+									                                       git push
+34. На веб интерфейсе создать файл bug_report.json ---- Войти в репозиторий XML (https://github.com/ElenaParsh/XML). Нажать кнопку Add file.
+                                                        Выбрать Create new file. В поле Name your file ввести bug_report.xml. 
+                                                        Нажать кнопку Commit new file.
+35. Сделать  Commit changes на интерфейсе ---- Открыть файл bug_report.json выбрать редактировать. Нажать Commit changes.
+36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате xml ---- Открыть файл bug_report.xml  Выбрать
+                                                                                    редактирование. Ввести текст
+	<?xml version="1.0" encoding="UTF-8"?>	
+	<bugreport>
+	<Submit_Date> 25.05.2021 </Submit_Date>
+	<Summary> Articles on start page are not aligned to column width </Summary>
+	<Environment> OS - Windows 10 Pro x64bit, ver. 21H1, OS assembly 19043.906 Browser -Mozilla Firefox, ver. 88.0.1 </Environment>
+	<Priority> Low </Priority>
+	<Assigned_to> N/A </Assigned_to>
+	<Severity> Low </Severity>
+	<Description> Articles on start page are not aligned to column width </Description> 
+  	<Steps_to_reproduce> Open link https://www.belta.by View the page </Steps_to_reproduce>
+	<Expected_result> Articles are aligned to column width </Expected_result>
+	<Actual_result> Articles on start page are not aligned to column width</Actual_result> 
+	</bugreport>
+37. Сделать Commit changes на веб интерфейсе ---- нажать Commit Changes 
+38. Синхронизировать внешний и локальный репозитории XML  ----- git pull																		   
+																		
+TXT   https://github.com/ElenaParsh/TXT.git 
+
+1. Создать внешний репозиторий с названием TXT --- открыть https://github.com/ElenaParsh?tab=repositories. Нажать кнопку New. 
+                                                    В поле Repository name ввести TXT, выбрать Public и Add a README file. Нажать Create repository.
+2. Клонировать внешний репозиторий TXT на локальный компьютер ----- git clone https://github.com/ElenaParsh/TXT.git
+3. Внутри локального TXT создать  файл "new.txt" ----  touch new.txt (предварительно необходимо войти в папку TXT командой cd TXT)
+4. Добавить файл под гит ----  git add new.txt
+5. Закоммитить файл ---- git commit -m 'Add new.txt file'
+6. Отправить файл на внешний GitHub репозиторий ---- git push
+7. Отредактировать содержание файла "new.txt" - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). 
+   Все в формате txt---- vim new.txt (для перехода в режим ввода нажать i. Ввести текст)
+	  Name_Surname: Elena_Stepanova-Parshuto
+	  Age: 35
+	  Amount_of_pets: 1
+	  Expected_salary: 1000
+8. Отправить изменения на внешний репозиторий ---- Выполняем последоватвельно команды git add new.txt  
+                                                                                      git commit -m 'Add new.txt file' 
+										                                              git push
+9. Создать файл "preferences.txt" ---- touch preferences.txt   
+10. В файл "preferences.txt" добавить информацию о своих предпочтениях (любимый фильм, любимый сериал, любимая еда, любимое время года,
+    страна, которую хотели бы посетить)  в формате xml ---- vim preferences.xml (для перехода в режим ввода нажать i. Ввести текст) 
+	Favorite_movie: Iron_men
+	Favorite_series: The_big_bang_theory
+	Favorite_meal: Potato_cakes
+	Favorite_season: Summer
+	Country_you_would_like_to_visit: USA	
+11.Создать файл 'skills.txt' добавить информацию о скиллах, которые будут получены на курсе ---- cat > skills.txt далее ввести текст
+	Skill_1: Terminal
+	Skill_2: GitBash
+	Skill_3: Postman
+	Skill_4: Charles
+	Skill_5: DevTools
+	Skill_6: SQL
+Для выхода нажать Ctrl+C	
+	
+12-13. Сделать коммит в одну строку и отправить сразу два файла на внешний репозитори1---- Выполняем  последоватвельно команды 
+                                                                   git add. 
+                                                                   git commit -m 'Add preferences.txt and skills.txt files'  
+								                                   git push
+14.На веб интерфейсе создать файл bug_report.txt ---- Войти в репозиторий TXT (https://github.com/ElenaParsh/TXT). Нажать кнопку Add file.
+                                                        Выбрать Create new file. В поле Name your file ввести bug_report.txt. 
+                                                        Нажать кнопку Commit new file.
+15. Сделать  Commit changes на интерфейсе ---- Открыть файл bug_report.txt выбрать редактировать. Нажать Commit changes.
+16. На веб интерфейсе модифицировать файл bug_report_txt, добавить баг репорт в формате txt ---- Открыть файл bug_report.txt  Выбрать
+                                                                                    редактирование. Ввести текст
+	ID number: BEL-1
+	Name: Articles on start page are not aligned to column width
+	Reporter: Elena Stepanova-Parshuto     
+	Submit Date: Submit 29/05/2021
+	Summary: Articles on start page are not aligned to column width
+	Environment:  OS - Windows 10 Pro x64bit, ver. 21H1, OS assembly 19043.906
+          	Browser -Mozilla Firefox, ver. 88.0.1
+	Priority: Low
+	Assigned to: N/A
+	Severity: Low
+	    Description
+	Articles on start page are not aligned to column width
+ 	   Steps to reproduce
+	> Open link https://www.belta.by
+	>  View the page
+	  Expected result
+	Articles are aligned to column width
+	   Actual result
+	Articles on start page are not aligned to column width 
+17. Сделать Commit changes на веб интерфейсе ---- нажать Commit Changes 
+18. Синхронизировать внешний и локальный репозитории TXT ---- git pull
+
+	https://github.com/ElenaParsh/JSON.git    
+
+	https://github.com/ElenaParsh/XML.git
+	
+	https://github.com/ElenaParsh/TXT.git 
+	
+	
+
+
