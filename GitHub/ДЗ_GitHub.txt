@@ -1,6 +1,6 @@
 ﻿ДЗ 1 GitHub
 
-JSON   https://github.com/ElenaParsh/JSON.git
+JSON   https://github.com/ElenaParsh/JSON.git 
 
 4. Создать внешний репозиторий с названием JSON --- открыть https://github.com/ElenaParsh?tab=repositories. Нажать кнопку New. 
                                                     В поле Repository name ввести JSON, выбрать Public и Add a README file. Нажать Create repository.  
