@@ -1,1 +1,1 @@
-# Homeworks
+# Homeworks from Vadim Ksendzov QA course
